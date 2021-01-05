@@ -6,7 +6,7 @@
     
     <groupId>org.springframework</groupId>
     <artifactId>gs-maven</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>0.1.0</version>
 
     <properties>
@@ -18,7 +18,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <artifactId>maven-shade-plugin</artifactId>
                 <version>3.2.4</version>
                 <executions>
                     <execution>
